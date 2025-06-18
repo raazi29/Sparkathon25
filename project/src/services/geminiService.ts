@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const API_KEY = 'AIzaSyBKgmUaVIVXiEINy7eWEX6SA_Ys0nb0Nrs';
+const API_KEY = '';
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export interface ImageAnalysisResult {
